@@ -8,7 +8,7 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="flex justify-center items-center mx-6">
+    <header class="flex justify-center items-center mt-8">
       <svg class="h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
         <!--! Font Awesome Pro 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
         <path
@@ -17,16 +17,24 @@
       </svg>
       <h1 class="font-mono p-4">SEBASTIAN LIEBENTRAUT</h1>
     </header>
-    <div class="p-5 max-w-screen-sm mx-auto">
+    <div class="pl-5 pr-5 max-w-screen-sm mx-auto">
       <img
         class="my-4"
         src="https://tritonsubs.com/wp-content/uploads/2020/07/Placeholder-16x9-1.jpg"
         alt=""
       />
-      <h1 class="font-mono text-3xl my-4">Hi, I am Basti.</h1>
-      <h2 class="font-mono my-4">A Frontend Web developer</h2>
-      <button class="font-mono px-4 py-3 my-4 bg-blue-800 text-white underline">
-        Hire me.
+      <div class="my-8">
+        <h1 class="font-mono text-3xl font-bold">
+          <span class="text-red-600">Hi,</span> I am Basti.
+        </h1>
+        <h2 class="font-mono my-4 text-base">
+          A <span class="text-green-700">Frontend</span> Web &lt;developer&gt;
+        </h2>
+      </div>
+      <button
+        class="font-mono px-5 pt-1 pb-3 mb-6 bg-blue-800 text-white underline"
+      >
+        <p class="text-base"><span class="text-3xl">&rarr;</span> Hire me.</p>
       </button>
       <div class="flex flex-row gap-6 h-12 my-4">
         <img src="https://www.svgrepo.com/show/452228/html-5.svg" alt="" />
@@ -46,15 +54,19 @@
           </div>
           <div>
             <h2 class="font-mono text-xs font-bold">HAMBURG CODING SCHOOL</h2>
-            <h1 class="font-mono text-base font-bold">Final Project</h1>
+            <h1 class="font-mono text-base font-bold mt-1">Final Project</h1>
           </div>
         </div>
-        <p class="font-mono text-base font-light">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-        </p>
-        <button class="font-mono px-4 py-3 my-4 text-black underline">
-          -> More...
-        </button>
+        <div>
+          <p class="font-mono text-base font-light mt-2">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="flex justify-end mt-1">
+          <button class="font-mono text-black underline">
+            <span class="text-3xl">&rarr;</span> More...
+          </button>
+        </div>
       </div>
     </div>
   </body>
